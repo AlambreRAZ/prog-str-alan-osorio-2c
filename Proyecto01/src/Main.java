@@ -1,4 +1,4 @@
-public class Main {
+public class ActividadSwitchCalculadora {
     public static void main(String[] args) {
 
         System.out.println("Semana 2");
