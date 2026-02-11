@@ -2,20 +2,15 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
-
 //Sintaxis
-
 //Declaracion
         int[] arr;
-
         int[] arr1 = new int[4]; //Inicializacion
         int [] arr2= {1,2,3,4};
 
 //Acceso (Get)
         System.out.println(arr1[0]);
         System.out.println(arr1[1]);
-
 //Recorrido
         System.out.println("___________________");
         for (int i = 0; i < arr1.length; i++) {
@@ -25,7 +20,6 @@ public class Main {
         for(int numero : arr1){
             System.out.println(numero);
         }
-
         System.out.println("__________");
         Persona[] personas = new Persona[3];
         Persona persona1 = new Persona();
@@ -38,9 +32,7 @@ public class Main {
         personas[0]=persona1;
         personas[1]=persona2;
         personas[2]=persona3;
-
         personas[0]=null; //eliminar el primer elemento
-
         for(Persona persona: personas){
 //System.out.println(persona);
             if(persona!=null && persona.isActive()){
