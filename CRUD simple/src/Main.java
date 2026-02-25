@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
+public .
+class Main {
     // Arreglo de Personas
     static Persona[] personas = new Persona[20];
     // Scanner para leer entradas del usuario
